@@ -99,7 +99,7 @@ const Home = () => {
   return (
   <AnimatedPage>
      <div className="min-h-screen bg-gray-50 dark:bg-slate-950 transition-colors duration-300">
-    <div className="min-h-screen bg-gray-50 dark:bg-slate-950 transition-colors duration-300">
+    <div className="min-h-screen bg-gray-50 dark:bg-slate-950 transition-colors duration-300 text-white">
       <header className="bg-gradient-to-r from-[#2c5d6d] to-[#1e3d47] text-white pt-12 pb-24 px-6 relative">
         <div className="max-w-7xl mx-auto flex justify-between items-start">
           <div className="flex items-start gap-4">

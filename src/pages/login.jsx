@@ -32,11 +32,11 @@ const Login = () => {
 
     try {
       // 2. CORRECCIÓN: Usamos la variable 'endpoint' en la URL
-      const response = await fetch(`http://localhost:3001${endpoint}`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload),
-      });
+      const response = await fetch(`https://izcali.net${endpoint}`, {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify(payload),
+});
 
       const data = await response.json();
 
